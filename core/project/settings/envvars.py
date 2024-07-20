@@ -1,5 +1,6 @@
 from core.core.utils.collection import deep_update
 from core.core.utils.settings import get_settings_from_environment
+
 """
 This take env variable with matching prefix, strips it,
 and adds it to global settings.
